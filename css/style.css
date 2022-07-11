@@ -120,7 +120,7 @@ canvas {
         line-height: 120px;
     }
     .hero-section {
-        padding-top: 10% !important;
+        padding-top: 8% !important;
     }
     canvas {
         height: 75% !important;
@@ -288,5 +288,63 @@ canvas {
 @media screen and (min-width: 960px) {
     .oc-heading {
         line-height: 90px !important;
+    }
+}
+
+
+/* Tech stack section */
+
+.ts-section {
+    padding-top: 5% !important;
+}
+
+.slider {
+    width: 100px !important;
+    height: 100px !important;
+    padding: 20px !important;
+}
+
+.videoplayer {
+    width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+    .slider {
+        width: 6rem !important;
+        height: 6rem !important;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .slider {
+        width: 7rem !important;
+        height: 7rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .slider {
+        width: 8.5rem !important;
+        height: 8.5rem !important;
+    }
+}
+
+
+/* Footer section */
+
+.footer-section {
+    padding-top: 10% !important;
+}
+
+.footer-heading {
+    font-size: 40px !important;
+    font-weight: 600 !important;
+    line-height: 50px !important;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-heading {
+        font-size: 72px !important;
+        font-weight: 500 !important;
     }
 }
