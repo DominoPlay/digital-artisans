@@ -154,6 +154,10 @@ canvas {
     padding-top: 7.5% !important;
 }
 
+.wwd-cards {
+    padding-top: 4% !important;
+}
+
 .wwd-img {
     padding-top: 50px !important;
     padding-bottom: 75px !important;
@@ -340,6 +344,23 @@ canvas {
     font-size: 40px !important;
     font-weight: 600 !important;
     line-height: 50px !important;
+}
+
+.form-control {
+    border-top: 0px solid black !important;
+    border-left: 0px solid black !important;
+    border-right: 0px solid black !important;
+    border-bottom: 1px solid #444444 !important;
+    border-radius: 0px !important;
+    font-size: 20px !important;
+}
+
+.form-control:focus {
+    box-shadow: black 0px 0px 0px 0px !important;
+}
+
+.form-floating>.form-control {
+    height: calc(4rem + 15px) !important;
 }
 
 @media screen and (min-width: 768px) {
